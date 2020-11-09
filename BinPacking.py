@@ -40,4 +40,4 @@ for item in items:
 
 print("Lower bound of bins:\n{}".format(lower_bound))
 for i in range(len(bins) - 1):
-    print("Bin {}: {}".format(i + 1, bins[i].contents))
+    print("Bin {}: {}. Space left = {}".format(i + 1, bins[i].contents, bins[i].size - bins[i].space_used))
