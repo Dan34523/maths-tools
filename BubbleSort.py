@@ -24,7 +24,6 @@ def bubble_sort_ascending(alist, asc):
         print(alist)
 
 
-
 ascending = int(input("Enter 1 if you\nwant ascending > "))
 list_entred = input("Enter a list of items\n> ").replace(" ", "").split(",")
 alist = [int(i) for i in list_entred]
